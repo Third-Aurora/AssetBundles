@@ -40,8 +40,6 @@ public class API : MonoBehaviour {
             } else {
                 Debug.Log("Not a valid asset bundle");
             }
-            www.disposeDownloadHandlerOnDispose = true;
-            www.Dispose();
         }
     }
 }
